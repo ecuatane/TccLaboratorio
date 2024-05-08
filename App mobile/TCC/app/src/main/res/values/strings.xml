@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TCC</string>
+    <string name="reg_email">Nome do Usuario:</string>
+    <string name="reg_gender">Genero:</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Femenino">Femenino</string>
+    <string name="idade">Selecione a  faixa etaria:</string>
+    <string name="jovem1">15-25</string>
+    <string name="jovem2">26-30</string>
+    <string name="jovem3">31-50</string>
+
+    <string name="Shift1">Shift↑</string>
+    <string name="Shift2">Shift↓</string>
+    <string name="numbers">123?</string>
+    <string name="space"></string>
+    <string name="letters">abc</string>
+    <string name="go">↩</string>
+    <string name="delete">Del</string>
+
+
+
+</resources>

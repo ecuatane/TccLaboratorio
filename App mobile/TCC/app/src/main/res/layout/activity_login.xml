@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F8">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvLogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Olá"
+
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="23dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/loginButtons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonCadastrar"
+                android:layout_width="157dp"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_start"
+                android:text="Guardar"
+
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/genero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttons"
+        android:layout_centerHorizontal="true"
+android:layout_marginBottom="20dp"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" Genero:"
+            android:layout_marginRight="20dp"
+            android:textSize="17dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupSex13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            android:textAlignment="center">
+
+
+            <RadioButton
+                android:id="@+id/radioButtonMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="18dp"
+
+                android:text="@string/Masculino" />
+
+            <RadioButton
+                android:id="@+id/radioButtonFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="@string/Femenino" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/faixa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genero"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+     >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+
+            android:text=" Faixa etaria:"
+            android:textSize="17dp" />
+
+        <RadioGroup
+            android:id="@+id/faixaEtaria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edEmailRegScreen"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+
+            android:textAlignment="center">
+
+
+            <RadioButton
+                android:id="@+id/jovem1"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+
+                android:text="@string/jovem1" />
+
+
+            <RadioButton
+                android:id="@+id/jovem2"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="@string/jovem2" />
+
+            <RadioButton
+                android:id="@+id/jovem3"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:text="@string/jovem3" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F8">
+
+    <LinearLayout
+        android:id="@+id/loginButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvLogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Administrador-TypeMe"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/idtxt"
+            android:layout_gravity="center"
+            android:layout_width="346dp"
+            android:layout_height="match_parent"
+            android:text="Total Usuarios:"
+            android:layout_marginBottom="70dp"
+            android:gravity="left"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/butttonGerar"
+            android:layout_width="157dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_start"
+            android:text="CSV-Dados"
+
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/butttonGerar2"
+            android:layout_width="157dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_start"
+            android:text="CSV-Usuarios"
+
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonstatisticas"
+            android:layout_width="157dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_start"
+            android:text="Estatisticas"
+
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btntestar"
+            android:layout_width="157dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_start"
+            android:text="Testar Modelo"
+
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
